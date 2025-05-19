@@ -9,7 +9,7 @@ const orderSchema = new mongoose.Schema({
       type: String,
       title: String,   
       price: Number,
-      description: String,
+      description: String,  
     },
     size: Object, // Measurements
     color: String,
